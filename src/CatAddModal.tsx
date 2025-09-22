@@ -60,7 +60,7 @@ const CatAddModal: React.FC<CatAddModalProps> = ({ open, onClose, onAdd, cats })
             }}
             style={{ background: '#ffe4e1', border: 'none', padding: '6px 16px', borderRadius: 4 }}
           >
-            Add Cat Lmao
+            Add Cat
           </button>
         </div>
       </div>
