@@ -40,7 +40,7 @@ const CatAddModal: React.FC<CatAddModalProps> = ({ open, onClose, onAdd, cats })
             <option value="">No Parent (Root)</option>
             {cats.map(cat => (
               <option key={cat.id} value={cat.id}>{cat.name}</option>
-            ))}
+            ))} 
           </select>
         </div>
         <div style={{ marginBottom: 12 }}>
